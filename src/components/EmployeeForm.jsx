@@ -49,6 +49,7 @@ const EmployeeForm = ({ refresh }) => {
         className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
         name="firstName"
         placeholder="First Name"
+        value={form.firstName}
         onChange={handleChange}
       />
 
@@ -56,6 +57,7 @@ const EmployeeForm = ({ refresh }) => {
         className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
         name="lastName"
         placeholder="Last Name"
+        value={form.lastName}
         onChange={handleChange}
       />
 
@@ -63,6 +65,7 @@ const EmployeeForm = ({ refresh }) => {
         className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
         name="email"
         placeholder="Email"
+        value={form.email}
         onChange={handleChange}
       />
 
@@ -70,6 +73,7 @@ const EmployeeForm = ({ refresh }) => {
         className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
         name="phone"
         placeholder="Phone"
+        value={form.phone}
         onChange={handleChange}
       />
 
@@ -77,6 +81,7 @@ const EmployeeForm = ({ refresh }) => {
         className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
         name="department"
         placeholder="Department"
+        value={form.department}
         onChange={handleChange}
       />
 
@@ -84,12 +89,14 @@ const EmployeeForm = ({ refresh }) => {
         className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
         name="role"
         placeholder="Role"
+        value={form.role}
         onChange={handleChange}
       />
 
       <input
         type="date"
         name="joiningDate"
+        value={form.joiningDate}
         className="border p-2 rounded"
         onChange={handleChange}
       />
